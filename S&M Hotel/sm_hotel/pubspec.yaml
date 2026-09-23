@@ -1,0 +1,32 @@
+name: sm_hotel
+description: Aplicativo S&M Hotel
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/angra.jpg
+    - images/arraial.jpg
+    - images/chile.jpg
+    - images/flori.jpg
+    - images/jeri.jpg
+    - images/lasvegas.jpg
+    - images/madri.jpg
+    - images/orlando.jpg
+    - images/paris.jpg
+    - images/roma.jpg
